@@ -1,0 +1,2 @@
+-r requirements.txt
+slack-bolt>=1.21,<2

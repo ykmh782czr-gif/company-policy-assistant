@@ -4,6 +4,8 @@ A comparison of rules-based search, an LLM with the full policy database, and an
 
 ## Website
 
+Public website: https://sara-cairati-company-policy-assistant.streamlit.app/
+
 Deploy `streamlit_app.py` on Streamlit Community Cloud using Python 3.12. The website needs no API key: it reads the saved results. Choose this repository, branch `main`, and main file `streamlit_app.py`.
 
 ## Run locally
@@ -40,4 +42,4 @@ Never upload `.env`, `.streamlit/secrets.toml`, or API tokens. The published web
 
 ## Assignment status
 
-The comparison and website source are ready. Slack bot implementation, a separate identifying workspace/channel, invitation to the instructor, and a screenshot are remaining deliverables.
+The comparison website is deployed. The Slack bot is implemented and has answered a live dress-code question in the separate Sara Cairati — Company Policy Assistant workspace, channel sara-cairati-policy-testing. See SLACK_SETUP.md for running it locally. Instructor invitation and submission screenshot are still pending.

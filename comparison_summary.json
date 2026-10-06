@@ -1,0 +1,44 @@
+[
+  {
+    "method": "rules",
+    "questions": 10,
+    "correct_answers": 4,
+    "incorrect_policy_attributions": 5,
+    "unsupported_claims": 0,
+    "mean_response_seconds": 0.0002651500999999223,
+    "median_response_seconds": 0.00027135450000070893,
+    "generation_input_tokens": 0,
+    "generation_output_tokens": 0,
+    "generation_total_tokens": 0,
+    "embedding_tokens": 0,
+    "rate_limit_retry_errors": 0
+  },
+  {
+    "method": "llm_no_vector",
+    "questions": 10,
+    "correct_answers": 10,
+    "incorrect_policy_attributions": 0,
+    "unsupported_claims": 0,
+    "mean_response_seconds": 1.405050383300001,
+    "median_response_seconds": 0.8255893335,
+    "generation_input_tokens": 27758,
+    "generation_output_tokens": 211,
+    "generation_total_tokens": 27969,
+    "embedding_tokens": 0,
+    "rate_limit_retry_errors": 2
+  },
+  {
+    "method": "llm_vector",
+    "questions": 10,
+    "correct_answers": 10,
+    "incorrect_policy_attributions": 0,
+    "unsupported_claims": 0,
+    "mean_response_seconds": 2.3606194251999995,
+    "median_response_seconds": 1.3785583959999999,
+    "generation_input_tokens": 1465,
+    "generation_output_tokens": 229,
+    "generation_total_tokens": 1694,
+    "embedding_tokens": null,
+    "rate_limit_retry_errors": 2
+  }
+]
